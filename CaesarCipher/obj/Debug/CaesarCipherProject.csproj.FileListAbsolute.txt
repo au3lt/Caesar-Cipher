@@ -9,3 +9,4 @@ C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\obj\Debug\CaesarCipherProj
 C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\obj\Debug\CaesarCipherProject.csproj.CopyComplete
 C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\obj\Debug\CaesarCipher.exe
 C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\obj\Debug\CaesarCipher.pdb
+C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\obj\Debug\CaesarCipherProject.csproj.AssemblyReference.cache
