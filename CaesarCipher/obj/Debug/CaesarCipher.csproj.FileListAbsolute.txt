@@ -1,0 +1,11 @@
+C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\bin\Debug\CaesarCipher.exe.config
+C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\bin\Debug\CaesarCipher.exe
+C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\bin\Debug\CaesarCipher.pdb
+C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\obj\Debug\CaesarCipher.csproj.CoreCompileInputs.cache
+C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\obj\Debug\CaesarCipher.exe
+C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\obj\Debug\CaesarCipher.pdb
+C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\aurim\source\repos\CaesarCipher\CaesarCipher\obj\Debug\CaesarCipher.csproj.CopyComplete
