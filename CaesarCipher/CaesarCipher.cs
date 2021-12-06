@@ -23,8 +23,8 @@ namespace CaesarCipherProject
 
 
             string text = "ABCabcZz#!0139"; // text to encrypt
-            int lettersKey = 15; // shift number to right for letters
-            int digitsKey = 4; // shift number to right for digits
+            int lettersKey = 2; // shift number to right for letters
+            int digitsKey = 1; // shift number to right for digits
 
             // gets encrypted text
             string encryptedText = p.GetEncrypedText(text, lettersKey, digitsKey);
@@ -70,24 +70,24 @@ namespace CaesarCipherProject
         // Method that gets corresponding text - encrypted or decrypted, depends on keys providen
         public string GetText(string text, int lettersKey, int digitsKey)
         {
-            string newText = "";
+            StringBuilder newText = new StringBuilder();
 
             foreach (char symbol in text)
             {
                 switch (symbol)
                 {
                     case char c when char.IsLetter(c):
-                        newText += GetChangedLetter(c, lettersKey);
+                        newText.Append(GetChangedLetter(c, lettersKey));
                         break;
                     case char c when char.IsDigit(c):
-                        newText += GetChangedDigit(c, digitsKey);
+                        newText.Append(GetChangedDigit(c, digitsKey));
                         break;
                     default:
-                        newText += symbol;
+                        newText.Append(symbol);
                         break;
                 }
             }
-            return newText;
+            return newText.ToString();
         }
     }
 }
