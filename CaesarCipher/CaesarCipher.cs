@@ -10,12 +10,13 @@ namespace CaesarCipherProject
     {
         /* This is the Caesar's cypher program
          * Program is made with the right shift
-         * It works on English letters and digits from 0-9
-         * Letters or keys digits greater than number of letters or digits should not be used or negative keys too
+         * It works on English letters and digits
+         * Letters key should be in range between 0-26
+         * Digits key should be in range between 0-10
          * You can change text variable in Main() method to enter your own text to encrypt
-         * You can change letterKey variable in Main() method to customize your key to shift letters to the right
-         * You can change digits variable in Main() method to customize your key to shift digits to the right
-         * Program will print your text variable, encrypted text and decrypted text
+         * You can change lettersKey variable's value in Main() method for custom letters key
+         * You can change digitsKey variable's value in Main() method for custom digits key
+         * Program will print your text variable's value, encrypted and decrypted texts
          */
         static void Main()
         {
@@ -23,8 +24,8 @@ namespace CaesarCipherProject
 
 
             string text = "ABCabcZz#!0139"; // text to encrypt
-            int lettersKey = 2; // shift number to right for letters
-            int digitsKey = 1; // shift number to right for digits
+            int lettersKey = 1; // shift number to right for letters (0-26)
+            int digitsKey = 1; // shift number to right for digits (0-10)
 
             // gets encrypted text
             string encryptedText = p.GetEncrypedText(text, lettersKey, digitsKey);
@@ -32,7 +33,7 @@ namespace CaesarCipherProject
             // gets decrypted text
             string decryptedText = p.GetDecryptedText(encryptedText, lettersKey, digitsKey);
 
-            // printing initial text, encrypted and decrypted text (decrypted text and initial must be the same
+            // printing initial text, encrypted and decrypted texts (decrypted and initial texts must be the same)
             Console.WriteLine($"Your text: {text}");
             Console.WriteLine($"Encryped text: {encryptedText}");
             Console.WriteLine($"Decrypted text: {decryptedText}");
